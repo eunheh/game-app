@@ -12,5 +12,13 @@ function gameTemplate (game) {
     `;
 };
 
+function renderFishes (game) {
+  return this.fish;
+}
 
-// export { gameTemplate };
+function renderSeaweed (game) {
+  return this.seawead;
+}
+
+
+export { gameTemplate };

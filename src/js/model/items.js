@@ -28,18 +28,21 @@ var SEAWEED = [
 ]
 
 class Fishes {
-    this.fish = FISH
+  constructor (fish) {
+    this.fish = FISH;
   }
+
   getFish () {
-    _.sample(this.fish)
+    return _.sample(this.fish);
   }
 }
 
 class Seaweed {
-    this.seaweed = SEAWEED
+  constructor (seaweed) {
+    this.seaweed = SEAWEED;
   }
   getSeaweed () {
-    _.sample(this.seaweed)
+    return _.sample(this.seaweed);
   }
 }
 

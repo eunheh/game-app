@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import _ from 'lodash';
 
-// import { gameTemplate } from "./game";
+import { gameTemplate } from "./game";
 
 class AppController {
   constructor (game, display) {
