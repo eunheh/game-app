@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+.entrance {
+  padding: 100px;
+  margin: 80px auto;
+  background-image: url(../images/village.jpg);
+  filter: grayscale(100%);
+  width: 680px;
+  height: 450px;
+
+.intro {
+  font-size: 40px;
+  color: black;
+  background-color: white;
+  filter: opacity(.8);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  margin: 10px;
+
+  .rules {
+    font-size: 20px;
+  }
+  }
+  button {
+    margin-left: 10px;
+  }
+}
+
+.display {
+  background-image: url("https://images.unsplash.com/photo-1431932441182-250651654c23");
+  background-size: 100% auto;
+
+
+  .fish {
+    width: 20px;
+    height: 20px;
+  }
+  .seaweed {
+    width: 20px;
+    height: 20px;
+  }
+};
